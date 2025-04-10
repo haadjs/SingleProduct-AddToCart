@@ -30,7 +30,7 @@ const Products = () => {
           </div>
         </h1>
       )}
-      <h1 className="mt-5 text-3xl font-bold text-center"> PRODUCTS:-</h1>
+      <h1 className="mt-5 text-3xl font-bold text-center m-4"> PRODUCTS :)</h1>
      
      
       {loading && <h1 className="mt-9 text-center" ><span className="loading loading-dots loading-xl"></span></h1>}

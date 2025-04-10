@@ -64,18 +64,18 @@ const SingleProduct = () => {
         {/* Product Details */}
         <div className="md:w-1/2 space-y-4">
           <h1 className="text-4xl font-bold text-pink-600">{data.title}</h1>
-          <p className="text-gray-600 text-sm">{data.description}</p>
+          <p className="text-gray-200 text-sm">{data.description}</p>
           <p className="text-lg font-semibold text-pink-500">
-            Brand: <span className="text-gray-800">{data.brand}</span>
+            Brand: <span className="text-gray-400">{data.brand}</span>
           </p>
           <p className="text-md font-medium text-pink-500">
-            Category: <span className="text-gray-800">{data.category}</span>
+            Category: <span className="text-gray-400">{data.category}</span>
           </p>
           <p className="text-3xl font-bold text-pink-700">${data.price}</p>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-100">
             Rating: <span className="font-medium">{data.rating}</span> ⭐
           </p>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-100">
             Stock available: <span className="font-medium">{data.stock}</span>
           </p>
           <button
